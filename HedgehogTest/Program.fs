@@ -130,7 +130,8 @@ let main _ =
 //    } |> Property.print' 10<tests>
 // 
     
+//    let rnd = System.Random ()
 //    for _ in 1..10 do
-//        (Xeger @"^\[\<([A-Z][a-zA-Z0-9]*)*\>\]$").Generate() |> printfn "%s"
+//        (Xeger (@"^\[\<([A-Z][a-zA-Z0-9]*)*\>\]$", rnd)).Generate() |> printfn "%s"
  
     0
